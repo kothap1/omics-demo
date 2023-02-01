@@ -9,6 +9,7 @@ params.version = 'v.0.3.9'
 
 process py_start {
     publishDir params.publish_dir
+    cpus params.py_start_threads
     container params.py_container
     input:
     val(py_input)
@@ -31,6 +32,7 @@ process py_start {
 
 process Greet {
     publishDir params.publish_dir
+    cpus params.greet_threads
     input:
         val greeting
         val addressee

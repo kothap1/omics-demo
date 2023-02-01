@@ -5,5 +5,6 @@
     "py_input": "main.py",
     "version": "version2",
     "publish_dir": "/mnt/workflow/pubdir",
-    "py_container": "535804300208.dkr.ecr.us-west-2.amazonaws.com/dms-rosalind:python3.9"
+    "py_container": "535804300208.dkr.ecr.us-west-2.amazonaws.com/dms-rosalind:python3.9",
+    "py_start_threads": "2"
 }
