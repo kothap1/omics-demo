@@ -25,7 +25,7 @@ process py_start {
     echo container_python ${params.container_python}
     echo ${workflow.projectDir}/main2.py
     echo ${workflow.projectDir}/${py_input}
-    python ${workflow.projectDir}/main.py ${workflow.projectDir}/${py_input}
+    #python ${workflow.projectDir}/main.py ${workflow.projectDir}/${py_input}
     """
 }
 
